@@ -49,7 +49,9 @@ Tomorrow, I’m expecting the complexity to ramp up — hopefully diving deeper 
 
 ## 📸 Demo
 
-`demo/adk-web-ui-demo.gif`
+![ADK Web UI demo](./demo/adk-web-ui-demo.gif)
+
+[Open demo/adk-web-ui-demo.gif](./demo/adk-web-ui-demo.gif)
 
 ---
 
