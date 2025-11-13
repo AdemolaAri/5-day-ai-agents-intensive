@@ -24,8 +24,8 @@ Over 5 days, I’ll be building progressively advanced **AI agents and multi-age
 | Day | Topic | Highlights | Repo Link |
 |-----|--------|-------------|------------|
 | 1 | Introduction to Agents | Built first Gemini + ADK agent, and a simple multi-agent system | [day1/](./day1) |
-| 2 | *Coming soon* |  |  |
-| 3 | *Coming soon* |  |  |
+| 2 | Agent Tools & Interoperability with Model Context Protocol (MCP) | Implemented minimal MCP-like wrapper for a tool result (simple JSON envelope) to ensure tool outputs are normalized across agents. | [day2/](./day2) |
+| 3 | Context Engineering: Sessions & Memory | Implemented short-term and long-term memory layers using embeddings and persistent context stores | [day3/](./day3) |
 | 4 | *Coming soon* |  |  |
 | 5 | *Coming soon* |  |  |
 
