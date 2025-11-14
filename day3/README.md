@@ -52,10 +52,6 @@ I also started seeing parallels with how I design state management in frontend w
     - A context summarizer to condense prior sessions.
 - The agent helps you remember facts, summarize past chats, and build continuity over time — like an evolving notebook that remembers you.
 
-## Next Step
-
-For Day 4, the focus will shift to planning & orchestration, combining multiple memory-enabled agents for more complex task execution.
-
 ## Links & references
 - Notebooks: 
     - [agent-sessions.ipynb](./notebooks/1-agent-sessions.ipynb)
