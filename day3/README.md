@@ -58,6 +58,7 @@ For Day 4, the focus will shift to planning & orchestration, combining multiple 
 
 ## Links & references
 - Notebooks: 
-    - [agent-sessions.ipynb](./notebooks/agent-sessions.ipynb)
+    - [agent-sessions.ipynb](./notebooks/1-agent-sessions.ipynb)
+    - [agent-memory.ipynb](./notebooks/2-agent-memory.ipynb)
 - Whitepaper / MCP 
     - [Context Engineering: Sessions & Memory](https://www.kaggle.com/whitepaper-context-engineering-sessions-and-memory)

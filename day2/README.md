@@ -117,7 +117,7 @@ reply("Analysis started. Job id: " + job_id)
 
 ## Links & references
 - Notebooks: 
-    - [agent-tools.ipynb](./notebooks/agent-tools.ipynb)
-    - [agent-tools-best-practices.ipynb](./notebooks/agent-tools-best-practices.ipynb)
+    - [agent-tools.ipynb](./notebooks/1-agent-tools.ipynb)
+    - [agent-tools-best-practices.ipynb](./notebooks/2-agent-tools-best-practices.ipynb)
 - Whitepaper / MCP 
     - ["Agent Tools & Interoperability with MCP" whitepaper](https://www.kaggle.com/whitepaper-agent-tools-and-interoperability-with-mcp)
