@@ -1,7 +1,7 @@
 # Day 3 Notes — 5-Day AI Agents Intensive
 
 **Date:** November 11, 2025  
-**Unit:** Context Engineering: Sessions & Memory
+**Unit:** Context Engineering: Sessions & Memory    
 **Artifacts:** [Notebooks & Whitepater](#links--references)
 
 ---
