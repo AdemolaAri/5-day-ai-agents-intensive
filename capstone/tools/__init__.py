@@ -7,3 +7,34 @@ Contains custom tools for agents:
 - Memory Bank tools
 - Job queue tools
 """
+
+from capstone.tools.stream_simulators import (
+    TwitterStreamSimulator,
+    EmergencyFeedSimulator,
+    SensorDataSimulator,
+    StreamConfig,
+)
+
+from capstone.tools.stream_connector import (
+    StreamConnector,
+    StreamConnection,
+    StreamStatus,
+    StreamHealth,
+    get_stream_connector,
+    stream_connector_tool,
+)
+
+__all__ = [
+    # Simulators
+    "TwitterStreamSimulator",
+    "EmergencyFeedSimulator",
+    "SensorDataSimulator",
+    "StreamConfig",
+    # Connector
+    "StreamConnector",
+    "StreamConnection",
+    "StreamStatus",
+    "StreamHealth",
+    "get_stream_connector",
+    "stream_connector_tool",
+]
