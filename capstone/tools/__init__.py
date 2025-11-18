@@ -24,6 +24,14 @@ from capstone.tools.stream_connector import (
     stream_connector_tool,
 )
 
+from capstone.tools.memory_tools import (
+    query_memory_bank,
+    store_incident_memory,
+    get_memory_bank_stats,
+    retrieve_incident_by_id,
+    MEMORY_TOOLS,
+)
+
 __all__ = [
     # Simulators
     "TwitterStreamSimulator",
@@ -37,4 +45,10 @@ __all__ = [
     "StreamHealth",
     "get_stream_connector",
     "stream_connector_tool",
+    # Memory Tools
+    "query_memory_bank",
+    "store_incident_memory",
+    "get_memory_bank_stats",
+    "retrieve_incident_by_id",
+    "MEMORY_TOOLS",
 ]
