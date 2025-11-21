@@ -1,0 +1,120 @@
+{
+  "agents": {
+    "ingest": {
+      "name": "Ingest Agent",
+      "url": "http://localhost:8001",
+      "status": "unknown",
+      "last_check": null,
+      "capabilities": [
+        "event_ingestion",
+        "event_normalization",
+        "entity_extraction"
+      ],
+      "endpoints": {
+        "tasks": "/tasks",
+        "health": "/health",
+        "agent_card": "/.well-known/agent-card.json"
+      },
+      "version": "1.0.0",
+      "error_count": 0,
+      "consecutive_failures": 0,
+      "metadata": {}
+    },
+    "verifier": {
+      "name": "Verifier Agent",
+      "url": "http://localhost:8002",
+      "status": "unknown",
+      "last_check": null,
+      "capabilities": [
+        "claim_extraction",
+        "fact_checking",
+        "reliability_scoring"
+      ],
+      "endpoints": {
+        "tasks": "/tasks",
+        "health": "/health",
+        "agent_card": "/.well-known/agent-card.json"
+      },
+      "version": "1.0.0",
+      "error_count": 0,
+      "consecutive_failures": 0,
+      "metadata": {}
+    },
+    "summarizer": {
+      "name": "Summarizer Agent",
+      "url": "http://localhost:8003",
+      "status": "unknown",
+      "last_check": null,
+      "capabilities": [
+        "incident_summarization",
+        "key_fact_extraction",
+        "memory_bank_query"
+      ],
+      "endpoints": {
+        "tasks": "/tasks",
+        "health": "/health",
+        "agent_card": "/.well-known/agent-card.json"
+      },
+      "version": "1.0.0",
+      "error_count": 0,
+      "consecutive_failures": 0,
+      "metadata": {}
+    },
+    "triage": {
+      "name": "Triage Agent",
+      "url": "http://localhost:8004",
+      "status": "unknown",
+      "last_check": null,
+      "capabilities": [
+        "severity_classification",
+        "priority_scoring",
+        "job_queue_management"
+      ],
+      "endpoints": {
+        "tasks": "/tasks",
+        "health": "/health",
+        "agent_card": "/.well-known/agent-card.json"
+      },
+      "version": "1.0.0",
+      "error_count": 0,
+      "consecutive_failures": 0,
+      "metadata": {}
+    },
+    "dispatcher": {
+      "name": "Dispatcher Agent",
+      "url": "http://localhost:8005",
+      "status": "unknown",
+      "last_check": null,
+      "capabilities": [
+        "action_generation",
+        "communication_templates",
+        "incident_persistence"
+      ],
+      "endpoints": {
+        "tasks": "/tasks",
+        "health": "/health",
+        "agent_card": "/.well-known/agent-card.json",
+        "incidents": "/incidents"
+      },
+      "version": "1.0.0",
+      "error_count": 0,
+      "consecutive_failures": 0,
+      "metadata": {}
+    },
+    "test_reg": {
+      "name": "Test Registration",
+      "url": "http://test:9999",
+      "status": "unknown",
+      "last_check": null,
+      "capabilities": [
+        "test_cap"
+      ],
+      "endpoints": {},
+      "version": "1.0.0",
+      "error_count": 0,
+      "consecutive_failures": 0,
+      "metadata": {}
+    }
+  },
+  "last_updated": "2025-11-18T18:59:09.359736"
+}
