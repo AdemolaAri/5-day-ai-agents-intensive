@@ -5,11 +5,10 @@ This module defines all data structures used throughout the agent pipeline,
 including events, incidents, jobs, and their serialization methods.
 """
 
-from dataclasses import dataclass, field, asdict
+from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Dict, Any, List, Optional
 from enum import Enum
-import json
 
 
 class SeverityLevel(str, Enum):

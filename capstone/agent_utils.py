@@ -4,10 +4,6 @@ AgentFleet Agent Management Utilities
 
 This module provides utility functions for agent management tasks including
 health checks, status monitoring, and A2A communication helpers.
-
-Requirements Satisfied:
-- 12.3: Agent discovery and registration utilities
-- 6.5: A2A retry logic and connection management
 """
 
 import os

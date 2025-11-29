@@ -15,15 +15,6 @@ from capstone.tools.stream_simulators import (
     StreamConfig,
 )
 
-from capstone.tools.stream_connector import (
-    StreamConnector,
-    StreamConnection,
-    StreamStatus,
-    StreamHealth,
-    get_stream_connector,
-    stream_connector_tool,
-)
-
 from capstone.tools.memory_tools import (
     query_memory_bank,
     store_incident_memory,
@@ -38,13 +29,6 @@ __all__ = [
     "EmergencyFeedSimulator",
     "SensorDataSimulator",
     "StreamConfig",
-    # Connector
-    "StreamConnector",
-    "StreamConnection",
-    "StreamStatus",
-    "StreamHealth",
-    "get_stream_connector",
-    "stream_connector_tool",
     # Memory Tools
     "query_memory_bank",
     "store_incident_memory",

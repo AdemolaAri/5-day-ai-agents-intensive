@@ -6,11 +6,6 @@ This module provides agent discovery, registry management, and health monitoring
 capabilities for the AgentFleet system. It maintains a registry of all agents
 with their status, capabilities, and connection information.
 
-Requirements Satisfied:
-- 12.3: Implement agent discovery and registration with health check endpoints
-- 6.1: Agent discovery for A2A protocol communication
-- 6.5: Automatic retry for failed agent connections
-
 Usage:
     # As a module
     from capstone.agent_discovery import AgentRegistry

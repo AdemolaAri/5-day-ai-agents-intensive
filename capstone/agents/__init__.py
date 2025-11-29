@@ -7,4 +7,5 @@ Contains all specialist agent implementations:
 - Summarizer Agent
 - Triage Agent
 - Dispatcher Agent
+- Dashboard Agent
 """

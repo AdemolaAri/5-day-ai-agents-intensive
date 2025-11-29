@@ -6,11 +6,6 @@ This module implements comprehensive error recovery mechanisms including
 A2A retry logic, circuit breaker patterns, dead letter queue management,
 and recovery job processing for failed events.
 
-Requirements Satisfied:
-- 13.2: Implement error recovery mechanisms with A2A retry logic and circuit breaker
-- 6.5: Circuit breaker for failing agents with automatic recovery
-- 11.4: Dead letter queue for failed events with recovery processing
-
 Usage:
     # As a module
     from capstone.error_recovery import A2ARetryHandler, CircuitBreakerManager, DeadLetterQueue
