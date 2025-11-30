@@ -27,7 +27,8 @@ Over 5 days, I’ll be building progressively advanced **AI agents and multi-age
 | 2 | Agent Tools & Interoperability with Model Context Protocol (MCP) | Implemented minimal MCP-like wrapper for a tool result (simple JSON envelope) to ensure tool outputs are normalized across agents. | [day2/](./day2) |
 | 3 | Context Engineering: Sessions & Memory | Implemented short-term and long-term memory layers using embeddings and persistent context stores | [day3/](./day3) |
 | 4 | Agent Quality | Instrumented an agent with proper logs, traces, and simple metrics… then built an evaluator to grade its responses. | [day4/](./day4/) |
-| 5 | *Coming soon* |  |  |
+| 5 | Prototype to Production | Created remote agents and deployed a production-ready multi-agent system | [day5/](./day5/) |
+| Capstone | 911 Agent Fleet Demo | Built and deployed a multi-agent fleet that ingests, triages, summarizes, verifies, and dashboards real-time Twitter data on a chosen topic | [capstone/](./capstone/) |
 
 ---
 
@@ -58,7 +59,9 @@ By the end of the course, it will include:
 - 📘 Blog: https://www.adeinmyworld.com
 - 💼 LinkedIn: www.linkedin.com/in/ademolabuwo
 - 🐦 Twitter/X: @AdemolaBuwo
-- 🎥 YouTube (coming soon)
+- 🎥 YouTube: https://youtu.be/_ypfw6vkB-k
+
+[![Captsone Project Demo](https://img.youtube.com/vi/_ypfw6vkB-k/0.jpg)](https://www.youtube.com/watch?v=_ypfw6vkB-k)
 
 ---
 
